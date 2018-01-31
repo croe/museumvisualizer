@@ -1,0 +1,20 @@
+//Layout
+.layout {
+  .museum__list--all {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    > li {
+      background: red;
+      .museum__list--item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        > li {
+          background: blue;
+        }
+      }
+    }
+  }
+}
